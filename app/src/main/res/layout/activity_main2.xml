@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="right"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/tinput"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="23dp"
+        android:gravity="top"
+        android:hint="请输入单词：" />
+
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/tinput"
+        android:layout_alignRight="@+id/tinput"
+        android:layout_below="@+id/tinput"
+        android:layout_marginTop="23dp"
+        android:text="翻译"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:textColor="#e80808" />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="返回单词本"
+        android:id="@+id/b"
+        android:layout_above="@+id/toutput"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="15dp"
+        android:textStyle="bold"
+        android:textSize="15dp" />
+
+    <WebView
+        android:id="@+id/toutput"
+        android:layout_width="wrap_content"
+
+        android:layout_height="180dp"
+        android:layout_alignEnd="@+id/submit"
+        android:layout_alignLeft="@+id/tinput"
+        android:layout_alignRight="@+id/submit"
+        android:layout_alignStart="@+id/tinput"
+        android:layout_below="@+id/submit"
+        android:layout_marginTop="32dp"
+        android:textSize="20dp" />
+</RelativeLayout>

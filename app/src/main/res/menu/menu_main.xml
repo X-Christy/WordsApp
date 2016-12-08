@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+tools:context="cn.edu.bistu.cs.se.wordsapp.MainActivity">
+<item
+    android:id="@+id/action_search"
+    android:orderInCategory="100"
+    android:title="本地查找"
+    app:showAsAction="never" />
+<item
+    android:id="@+id/action_insert"
+    android:orderInCategory="100"
+    android:title="新增"
+    app:showAsAction="never" />
+<item
+    android:id="@+id/action_search2"
+    android:orderInCategory="100"
+    android:title="百度在线翻译"
+    app:showAsAction="never" />
+<item
+    android:id="@+id/action_search3"
+    android:orderInCategory="100"
+    android:title="详细搜索"
+    app:showAsAction="never" />
+</menu>

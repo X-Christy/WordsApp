@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:Android="http://schemas.android.com/apk/res-auto"
+    package="cn.edu.bistu.cs.se.words">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name="cn.edu.bistu.cs.se.wordsapp.WordsApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="WordsApp"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="cn.edu.bistu.cs.se.wordsapp.MainActivity"
+            android:label="WordsApp"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="cn.edu.bistu.cs.se.wordsapp.WordDetailActivity"
+            android:label="详细内容" />
+        <activity
+            android:name="cn.edu.bistu.cs.se.wordsapp.Main3Activity"
+            android:label="百度在线翻译" />
+        <activity
+            android:name="cn.edu.bistu.cs.se.wordsapp.Main2Activity"
+            android:label="详细搜索" />
+    </application>
+
+</manifest>
